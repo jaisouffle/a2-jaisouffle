@@ -1,4 +1,97 @@
 body {
-  background:black;
-  color:white;
+  font-family: Arial, sans-serif;
+  background-color: lavender;
+
+}
+
+h1, h2 {
+  text-align: center;
+
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px; 
+  max-width: 400px;
+  margin: 20px auto; 
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0 .3rem .3rem grey;
+  backdrop-filter: blur(7px);
+  border-radius: 1rem;
+
+}
+
+
+table {
+  width: 77%;
+  border-collapse: collapse;
+  margin: auto;
+  box-shadow:0 .3rem .8rem grey;
+  backdrop-filter: blur(7px);
+  border-radius: 1rem;
+
+}
+
+th{
+  padding: 10px;
+  border: 1px solid #ddd;
+  background-color: #a3a3a3;
+  color: white
+
+}
+
+td{
+  padding: 10px;
+  border: 1px solid #ddd;
+  justify-content: center; 
+
+}
+
+td.action {
+  justify-content: center; 
+  gap: 10rem; 
+  width: 11rem; 
+  padding: .7rem; 
+}
+
+
+tr:nth-child(even) {
+  background-color: lightgrey;
+}
+
+tr:nth-child(odd) {
+  background-color: whitesmoke;
+}
+
+
+button {
+  padding: 10px 15px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#saveEditButton {
+  background-color: #28a745;
+  color: white;
+}
+
+#addButton {
+  background-color: #ff8800;
+  color: white;
+}
+
+button.edit {
+  background-color: #3498db; 
+  color: white;
+}
+
+button.delete {
+  background-color: #e74c3c; 
+  color: white;
 }

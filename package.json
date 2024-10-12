@@ -1,12 +1,12 @@
 {
-  "name": "",
-  "version": "",
-  "description": "",
-  "author": "",
+  "name": "a2-jaisouffle",
+  "version": "0.0.0",
+  "description": "Car inventory management application for CS4241 assignment 2",
+  "author": "Najum Soofi",
   "scripts": {
     "start": "node server.js"
   },
   "dependencies": {
-    "mime": "^2.4.4"
+    "mime": "^2.6.0"
   }
 }
